@@ -1,0 +1,48 @@
+{
+  "name": "nodevices",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "lint": "standard",
+    "test": "tap",
+    "posttest": "npm run lint",
+    "start": "npm run build:styles && dotenv -e .env -- node src/server.js",
+    "dev": "concurrently npm:watch:*",
+    "watch:server": "dotenv -e .env -- nodemon src/server.js",
+    "watch:styles": "npm run build:styles -- --watch",
+    "build:styles": "postcss public/styles/tailwind.css -o public/styles/style.css",
+    "simulation": "dotenv -e .env -- node src/simulation.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eta": "^1.12.3",
+    "express": "^4.17.3",
+    "express-fastest-validator": "^1.0.7",
+    "node-fetch": "^3.2.0",
+    "uuid-mongodb": "^2.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.2",
+    "babel-eslint": "^10.1.0",
+    "concurrently": "^7.0.0",
+    "dotenv-cli": "^5.0.0",
+    "nodemon": "^2.0.15",
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0",
+    "standard": "^16.0.4",
+    "supertest": "^6.2.2",
+    "tailwindcss": "^3.0.23",
+    "tap": "^15.1.6"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "env": [
+      "node",
+      "es2021"
+    ]
+  }
+}

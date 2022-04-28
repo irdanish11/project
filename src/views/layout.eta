@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-gray-100">
+<head>
+  <%~ includeFile('./head.eta', { title: it.title }) %>
+</head>
+<body class="h-full">
+  <div class="flex flex-col min-h-full">
+    <header class="bg-white shadow">
+      <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+        <h1 class="text-3xl font-bold text-gray-900"><%= it.title %></h1>
+      </div>
+    </header>
+    <main class="flex-grow">
+      <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+        <%~ it.body %>
+      </div>
+    </main>
+    <footer class="bg-white shadow text-center lg:text-left">
+      <div class="text-gray-700 text-center p-4">
+        Copyright Sinaptia, Inc.
+      </div>
+    </footer>
+  </div>
+  <script src="/js/index.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+[
+	{
+		"id": "c1de023a-dd67-499c-b133-8d02d5baf3bc",
+    "name": "Google Home Voice Controller",
+		"createdAt": 1633800340000,
+		"updatedAt": 1661596345000
+	},
+	{
+		"id": "66326699-1bc9-4689-8f51-6d629f7e92d7",
+    "name": "Amazon Echo Voice Controller",
+		"createdAt": 1668799106000,
+		"updatedAt": 1634933031000
+	},
+	{
+		"id": "8479fda2-201f-43fb-b3f3-6f3cb872d41d",
+    "name": "Mr. Coffee Smart Coffeemaker",
+		"createdAt": 1672572618000,
+		"updatedAt": 1631049240000
+	},
+	{
+		"id": "91fb2148-d49c-4179-bb9e-40ffda8a58e6",
+    "name": "Philips Hue Hue Go",
+		"createdAt": 1630089491000,
+		"updatedAt": 1661834624000
+	},
+	{
+		"id": "d69c304d-c3f6-4e17-b950-95d012a3ac4b",
+    "name": "Amazon Dash Button",
+		"createdAt": 1667334683000,
+		"updatedAt": 1623037497000
+	},
+	{
+		"id": "19e0a141-bd94-45e0-815f-30cbbf65bfc4",
+    "name": "August Doorbell Cam",
+		"createdAt": 1668949878000,
+		"updatedAt": 1636534163000
+	},
+	{
+		"id": "a03d4269-37fe-4e4d-ab7c-70e6f167d330",
+    "name": "Footbot Air Quality Monitor",
+		"createdAt": 1656442016000,
+		"updatedAt": 1635213289000
+	},
+	{
+		"id": "6043cb6a-f646-49c2-9656-07344db5c0b4",
+    "name": "August Smart Lock",
+		"createdAt": 1675263192000,
+		"updatedAt": 1658253618000
+	},
+	{
+		"id": "1dd4bd20-afad-431b-9bbc-e429f5f583c2",
+    "name": "Flow by Plume Labs Air Pollution Monitor",
+		"createdAt": 1635099646000,
+		"updatedAt": 1668126198000
+	},
+	{
+		"id": "f9986742-bd1a-4e02-b4c0-142d9ad18b46",
+    "name": "Nest Smoke Alarm",
+		"createdAt": 1663653208000,
+		"updatedAt": 1646909537000
+	}
+]

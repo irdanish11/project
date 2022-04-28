@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-gray-100">
+<head>
+  <%~ includeFile('./head.eta', { title: it.title }) %>
+</head>
+<body class="h-full">
+  <%~ it.body %>
+</body>
+</html>
