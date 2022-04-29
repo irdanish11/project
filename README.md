@@ -81,7 +81,7 @@ $  docker-compose run --service-ports web npm start
 
 ## Delivery
 
-Send your solution to [info@sinaptia.dev](mailto:info@sinaptia.dev) and mark your completed tasks in the list above. See example:
+Mark your completed tasks in the list above. See example:
 
 - [x] Task 1 (means completed)
 - [ ] Task 2 (means not completed)
